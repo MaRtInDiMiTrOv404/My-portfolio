@@ -47,7 +47,7 @@ const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
     duration: 600,
-    delay: 100,
+    delay: 20,
 //     reset: true
 });
 
