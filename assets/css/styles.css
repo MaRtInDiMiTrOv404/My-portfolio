@@ -48,7 +48,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
-  background: linear-gradient(to right, hwb(110 75% 11%), #b9cfdf); /* Тук добавяме преливка */
+  background: linear-gradient(to right, #c5e3bf, #b9cfdf); /* Тук добавяме преливка */
 }
 
 
