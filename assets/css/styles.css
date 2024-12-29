@@ -48,7 +48,9 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+  background: linear-gradient(to right, hwb(110 75% 11%), #b9cfdf); /* Тук добавяме преливка */
 }
+
 
 h1, h2, p {
   margin: 0;
@@ -248,20 +250,6 @@ img {
 .about__img img {
   width: 200px;
   border-radius: 0.5rem;
-}
-
-/* ===== BG/EN ===== */
-.language-toggle {
-  background-color: var(--first-color);
-  color: #fff;
-  padding: 0.5rem 1rem;
-  font-weight: var(--font-semi);
-  border-radius: 0.5rem;
-  transition: background-color 0.3s ease;
-}
-
-.language-toggle:hover {
-  background-color: #6e45e1;
 }
 
 /* ===== SKILLS =====*/
