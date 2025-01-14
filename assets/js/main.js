@@ -56,3 +56,37 @@ sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
 
+// Инициализация на EmailJS с публичния ключ
+(function () {
+    emailjs.init("ais59-DX_2_DnkzBn"); // Постави тук твоя публичен ключ
+})();
+
+// Изпращане на имейл от контактната форма
+document.getElementById("contactForm").addEventListener("submit", function (event) {
+    event.preventDefault(); // Предотвратява изпращането на формата по подразбиране
+
+    // Събиране на данните от формата
+    const formData = {
+        name: this.name.value,
+        email: this.email.value,
+        message: this.message.value,
+    };
+
+    // Изпращане на имейла чрез EmailJS
+    emailjs
+        .send("service_q8tpgb4", "template_mgc10jy", formData) // Заменяй с твоето Service ID и Template ID
+        .then(
+            function (response) {
+                // Показва съобщение при успешен изпратен имейл
+                document.getElementById("statusMessage").innerText =
+                    "Съобщението беше изпратено успешно!";
+                document.getElementById("contactForm").reset(); // Нулира формата
+            },
+            function (error) {
+                // Показва съобщение при грешка
+                document.getElementById("statusMessage").innerText =
+                    "Възникна грешка при изпращането. Опитайте отново.";
+                console.error("Грешка при изпращането:", error);
+            }
+        );
+});
