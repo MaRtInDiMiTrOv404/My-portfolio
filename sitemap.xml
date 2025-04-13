@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Начална страница -->
+  <url>
+    <loc>https://martingenadievdimitrov.website/</loc>
+    <lastmod>2025-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Секция: Начало -->
+  <url>
+    <loc>https://martingenadievdimitrov.website/#home</loc>
+    <lastmod>2025-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Секция: За мен -->
+  <url>
+    <loc>https://martingenadievdimitrov.website/#about</loc>
+    <lastmod>2025-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Секция: Умения -->
+  <url>
+    <loc>https://martingenadievdimitrov.website/#skills</loc>
+    <lastmod>2025-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Секция: Контакт -->
+  <url>
+    <loc>https://martingenadievdimitrov.website/#contact</loc>
+    <lastmod>2025-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Снимка: Мартин Генадиев Димитров -->
+  <url>
+    <loc>https://martingenadievdimitrov.website/assets/img/Мартин Генадиев Димитров.jpg</loc>
+    <lastmod>2025-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://martingenadievdimitrov.website/assets/img/Мартин Генадиев Димитров.jpg</image:loc>
+      <image:caption>Мартин Генадиев Димитров - уеб разработчик</image:caption>
+      <image:title>Мартин Генадиев Димитров</image:title>
+    </image:image>
+  </url>
+
+</urlset>
